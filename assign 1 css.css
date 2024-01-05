@@ -1,0 +1,37 @@
+body, html{
+    height: 100vh; /* brings the box to center of the page */
+    width: 100vw;
+    margin: 0;
+ 
+
+    
+    
+}
+
+
+#box{
+    height: 12px;
+    width: 12px;
+    background-color: red;
+    display: none;
+    position:fixed;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    
+    
+}
+
+button{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(33, 245, 6);
+    position:relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+
